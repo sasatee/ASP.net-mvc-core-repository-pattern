@@ -1,0 +1,23 @@
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\bin\Debug\net8.0\Learning.Models.deps.json
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\bin\Debug\net8.0\Learning.Models.dll
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\bin\Debug\net8.0\Learning.Models.pdb
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\obj\Debug\net8.0\Learning.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\obj\Debug\net8.0\Learning.Models.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\obj\Debug\net8.0\Learning.Models.AssemblyInfo.cs
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\obj\Debug\net8.0\Learning.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\obj\Debug\net8.0\Learning.Models.sourcelink.json
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\obj\Debug\net8.0\Learning.Models.dll
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\obj\Debug\net8.0\refint\Learning.Models.dll
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\obj\Debug\net8.0\Learning.Models.pdb
+C:\Users\user\source\repos\cs12dotnet8\.net core\Learning.Models\obj\Debug\net8.0\ref\Learning.Models.dll
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\bin\Debug\net8.0\Learning.Models.deps.json
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\bin\Debug\net8.0\Learning.Models.dll
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\bin\Debug\net8.0\Learning.Models.pdb
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Learning.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Learning.Models.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Learning.Models.AssemblyInfo.cs
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Learning.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Learning.Models.dll
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\refint\Learning.Models.dll
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Learning.Models.pdb
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\ref\Learning.Models.dll
