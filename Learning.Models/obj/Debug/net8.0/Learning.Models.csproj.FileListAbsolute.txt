@@ -21,3 +21,4 @@ C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\n
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\refint\Learning.Models.dll
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Learning.Models.pdb
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\ref\Learning.Models.dll
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Learning.Models.sourcelink.json

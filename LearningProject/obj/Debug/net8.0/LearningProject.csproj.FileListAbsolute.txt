@@ -414,9 +414,10 @@ C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\n
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\net8.0\scopedcss\bundle\LearningProject.styles.css
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\net8.0\scopedcss\projectbundle\LearningProject.bundle.scp.css
-C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\net8.0\LearningProject.csproj.CopyComplete
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\net8.0\LearningProject.dll
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\net8.0\refint\LearningProject.dll
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\net8.0\LearningProject.pdb
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\net8.0\LearningProject.genruntimeconfig.cache
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\net8.0\ref\LearningProject.dll
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\net8.0\LearningProject.sourcelink.json
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\LearningProject\obj\Debug\net8.0\Learning.EED3D419.Up2Date
