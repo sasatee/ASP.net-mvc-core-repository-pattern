@@ -1,15 +1,15 @@
-﻿using Learning.Models;
+﻿using Productstore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learning.DataAccess.Repository.IRepository
+namespace Productstore.DataAccess.Repository.IRepository
 {
     public interface ICategoryRepository : IRepository<Category>
     {
         void Update(Category obj);
-        void Save();
+     
     }
 }

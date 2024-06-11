@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LearningProject.bundle.scp.css",
-      "PackagePath": "staticwebassets\\LearningProject.bundle.scp.css"
+      "Id": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bookstore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bookstore.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LearningProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bookstore.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LearningProject.props",
-      "PackagePath": "build\\LearningProject.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Bookstore.props",
+      "PackagePath": "build\\Bookstore.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LearningProject.props",
-      "PackagePath": "buildMultiTargeting\\LearningProject.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Bookstore.props",
+      "PackagePath": "buildMultiTargeting\\Bookstore.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LearningProject.props",
-      "PackagePath": "buildTransitive\\LearningProject.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Bookstore.props",
+      "PackagePath": "buildTransitive\\Bookstore.props"
     }
   ],
   "ElementsToRemove": []

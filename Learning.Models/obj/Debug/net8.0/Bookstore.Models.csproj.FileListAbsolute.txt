@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\bin\Debug\net8.0\Bookstore.Models.deps.json
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\bin\Debug\net8.0\Bookstore.Models.dll
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\bin\Debug\net8.0\Bookstore.Models.pdb
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Bookstore.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Bookstore.Models.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Bookstore.Models.AssemblyInfo.cs
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Bookstore.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Bookstore.Models.sourcelink.json
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Bookstore.Models.dll
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\refint\Bookstore.Models.dll
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\Bookstore.Models.pdb
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Models\obj\Debug\net8.0\ref\Bookstore.Models.dll

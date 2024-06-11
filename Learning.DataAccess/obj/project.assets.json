@@ -1503,24 +1503,27 @@
           }
         }
       },
-      "Learning.Models/1.0.0": {
+      "Bookstore.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Learning.Models.dll": {}
+          "bin/placeholder/Bookstore.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Learning.Models.dll": {}
-        }
+          "bin/placeholder/Bookstore.Models.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
-      "Learning.Utilities/1.0.0": {
+      "Bookstore.Utilities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Learning.Utilities.dll": {}
+          "bin/placeholder/Bookstore.Utilities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Learning.Utilities.dll": {}
+          "bin/placeholder/Bookstore.Utilities.dll": {}
         }
       }
     }
@@ -4117,21 +4120,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Learning.Models/1.0.0": {
+    "Bookstore.Models/1.0.0": {
       "type": "project",
-      "path": "../Learning.Models/Learning.Models.csproj",
-      "msbuildProject": "../Learning.Models/Learning.Models.csproj"
+      "path": "../Learning.Models/Bookstore.Models.csproj",
+      "msbuildProject": "../Learning.Models/Bookstore.Models.csproj"
     },
-    "Learning.Utilities/1.0.0": {
+    "Bookstore.Utilities/1.0.0": {
       "type": "project",
-      "path": "../Learning.Utilities/Learning.Utilities.csproj",
-      "msbuildProject": "../Learning.Utilities/Learning.Utilities.csproj"
+      "path": "../Learning.Utilities/Bookstore.Utilities.csproj",
+      "msbuildProject": "../Learning.Utilities/Bookstore.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Learning.Models >= 1.0.0",
-      "Learning.Utilities >= 1.0.0",
+      "Bookstore.Models >= 1.0.0",
+      "Bookstore.Utilities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.6"
@@ -4144,9 +4147,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Learning.DataAccess.csproj",
-      "projectName": "Learning.DataAccess",
-      "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Learning.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Bookstore.DataAccess.csproj",
+      "projectName": "Bookstore.DataAccess",
+      "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Bookstore.DataAccess.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
@@ -4170,11 +4173,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Learning.Models.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Learning.Models.csproj"
+            "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Bookstore.Models.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Bookstore.Models.csproj"
             },
-            "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Learning.Utilities.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Learning.Utilities.csproj"
+            "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Bookstore.Utilities.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Bookstore.Utilities.csproj"
             }
           }
         }

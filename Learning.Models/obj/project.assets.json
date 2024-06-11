@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Learning.Models.csproj",
-      "projectName": "Learning.Models",
-      "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Learning.Models.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Bookstore.Models.csproj",
+      "projectName": "Bookstore.Models",
+      "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Bookstore.Models.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\obj\\",
       "projectStyle": "PackageReference",
@@ -68,6 +68,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

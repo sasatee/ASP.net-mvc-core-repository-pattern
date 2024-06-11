@@ -4,11 +4,11 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using Learning.DataAccess.Repository.IRepository;
-using LearningProject.DataAccess.Data;
+using Productstore.DataAccess.Repository.IRepository;
+using ProductstoreProject.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Learning.DataAccess.Repository
+namespace Productstore.DataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {

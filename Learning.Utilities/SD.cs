@@ -1,4 +1,4 @@
-﻿namespace Learning.Utilities
+﻿namespace Productstore.Utilities
 {
     public class SD
     {

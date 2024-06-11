@@ -1,4 +1,4 @@
-namespace Learning.Models
+namespace Productstore.Models
 {
     public class ErrorViewModel
     {

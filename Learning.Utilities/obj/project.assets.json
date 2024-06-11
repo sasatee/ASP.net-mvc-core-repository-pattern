@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Learning.Utilities.csproj",
-      "projectName": "Learning.Utilities",
-      "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Learning.Utilities.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Bookstore.Utilities.csproj",
+      "projectName": "Bookstore.Utilities",
+      "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Bookstore.Utilities.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\obj\\",
       "projectStyle": "PackageReference",
