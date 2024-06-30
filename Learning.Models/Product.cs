@@ -19,7 +19,7 @@ namespace Productstore.Models
         [Required]
         public string ISBN { get; set; }
         [Required]
-        public string Author { get; set; }
+        public string  Author { get; set; }
 
         [Required]
         public string Description { get; set; }

@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|solutionrelative:learning.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.dataaccess\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|solutionrelative:learning.dataaccess\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77873FA2-D572-4F67-8050-A86F1246F7A2}|Learning.Models\\Bookstore.Models.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77873FA2-D572-4F67-8050-A86F1246F7A2}|Learning.Models\\Bookstore.Models.csproj|solutionrelative:learning.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -30,6 +39,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Learning.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Learning.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAApwCAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:29:03.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Product.cs",
+              "RelativeDocumentMoniker": "Learning.Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Product.cs",
+              "RelativeToolTip": "Learning.Models\\Product.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAwwDMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:27:36.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Learning.DataAccess\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "Learning.DataAccess\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:27:19.564Z",
+              "EditorCaption": ""
             }
           ]
         }
