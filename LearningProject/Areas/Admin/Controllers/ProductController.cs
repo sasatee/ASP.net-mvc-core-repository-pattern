@@ -17,7 +17,7 @@ namespace Productstore.Areas.Admin.Controllers
 
 
         //register our service in DI container
-        public ProductController(IUnitOfWork unitofWork,IWebHostEnvironment IwebHostEnv)
+        public ProductController(IUnitOfWork unitofWork, IWebHostEnvironment IwebHostEnv)
         {
             _unitOfWork = unitofWork;
             _webHostEnvironment = IwebHostEnv;
@@ -25,9 +25,9 @@ namespace Productstore.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
-        
-            List<Product> objProductList = _unitOfWork.Product.GetAll().ToList();
-           
+
+            List<Product> objProductList = _unitOfWork.Product.GetAll(includeProperties: "Category").ToList();
+
             return View(objProductList);
         }
 
@@ -60,17 +60,17 @@ namespace Productstore.Areas.Admin.Controllers
             };
 
             //this means that create action view method is called for creating product if there is no id 
-            if(id == null || id == 0)
+            if (id == null || id == 0)
             {
                 //view 
                 return View(productVM);
             }
 
-           else
+            else
             {
                 //this means that update action is called for update product with respective id 
 
-                productVM.Product= _unitOfWork.Product.Get(u => u.Id == id);
+                productVM.Product = _unitOfWork.Product.Get(u => u.Id == id);
 
                 //update
                 return View(productVM);
@@ -87,38 +87,41 @@ namespace Productstore.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Upsert(ProductVM productVM, IFormFile? file)
         {
-            string wwwRootPath = _webHostEnvironment.WebRootPath; // path for wwwRoot image
-            if (file != null)
+
+            if (ModelState.IsValid)
             {
-
-                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName); // eg: random id + .png / .jpeg ect ..
-                string productPath = Path.Combine(wwwRootPath, @"images\product"); // file path
-
-                if (!string.IsNullOrEmpty(productVM.Product.ImageUrl))
+                string wwwRootPath = _webHostEnvironment.WebRootPath; // path for wwwRoot image
+                if (file != null)
                 {
 
-                    //if path exist 
-                    // delete the old image
-                    var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ImageUrl.Trim('\\');
+                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName); // eg: random id + .png / .jpeg ect ..
+                    string productPath = Path.Combine(wwwRootPath, @"images\product"); // file path
 
-                    if (System.IO.File.Exists(oldImagePath))
+                    if (!string.IsNullOrEmpty(productVM.Product.ImageUrl))
                     {
-                        System.IO.File.Delete(oldImagePath);
+
+                        //if path exist 
+                        // delete the old image
+                        var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ImageUrl.Trim('\\'));
+
+                        if (System.IO.File.Exists(oldImagePath))
+                        {
+                            System.IO.File.Delete(oldImagePath);
+                        }
+
+
+
+
                     }
 
 
-
+                    using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                    {
+                        file.CopyTo(fileStream);
+                    }
+                    productVM.Product.ImageUrl = @"\images\product\" + fileName;
 
                 }
-
-
-                using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
-                {
-                    file.CopyTo(fileStream);
-                }
-                productVM.Product.ImageUrl = @"\images\product\" + fileName;
-
-
 
                 if (productVM.Product.Id == 0)
                 {
@@ -132,12 +135,24 @@ namespace Productstore.Areas.Admin.Controllers
 
 
 
+
+
+
+
                 _unitOfWork.Save();
                 TempData["success"] = "Product has been successfully created";
                 return RedirectToAction("Index");
 
 
-            } 
+
+
+
+
+
+
+
+
+            }
             else
             {
 
@@ -164,56 +179,113 @@ namespace Productstore.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Edit(Product obj)
         {
-    
+
             if (ModelState.IsValid)
             {
-                _unitOfWork.Product.Update(obj); 
+                _unitOfWork.Product.Update(obj);
                 _unitOfWork.Save();
                 TempData["success"] = "Product has been successfully edited";
-                return RedirectToAction("Index"); 
+                return RedirectToAction("Index");
             }
-            return View(); 
+            return View();
 
 
         }
 
+
+        //remove the delete functionality as i have implement this action method as Api 
+        //public IActionResult Delete(int? id)
+        //{
+        //    if (id == null || id == 0)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    Product? productFromDb = _unitOfWork.Product.Get(u => u.Id == id);
+
+        //    if (productFromDb == null)
+        //    {
+        //        return NotFound();
+
+        //    }
+        //    return View(productFromDb);
+
+
+
+        //}
+
+        ////Delete action method 
+        //[HttpPost, ActionName("Delete")]
+        //public IActionResult DeletePOST(int? id)
+        //{
+        //    Product? obj = _unitOfWork.Product.Get(u => u.Id == id);
+        //    if (obj == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    _unitOfWork.Product.Remove(obj);
+        //    _unitOfWork.Save();
+        //    TempData["success"] = "Product has been successfully deleted";
+        //    return RedirectToAction("Index");
+
+
+
+
+        //}
+
+        #region  API CAllS
+      
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            List<Product> objProductList = _unitOfWork.Product.GetAll(includeProperties: "Category").ToList();
+            return Json(new { data = objProductList });
+
+
+
+
+
+
+        }
+
+
+        [HttpDelete]
         public IActionResult Delete(int? id)
         {
-            if (id == null || id == 0)
+
+
+            var productToBeDelete = _unitOfWork.Product.Get(u => u.Id == id);
+            if (productToBeDelete == null)
             {
-                return NotFound();
+                return Json(new { success = false, message = "Error while deleting" });
+
+
+
             }
 
-            Product? productFromDb = _unitOfWork.Product.Get(u => u.Id == id);
+            //remove image 
+                var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, productToBeDelete.ImageUrl.Trim('\\'));
 
-            if (productFromDb == null)
-            {
-                return NotFound();
+                if (System.IO.File.Exists(oldImagePath))
+                {
+                    System.IO.File.Delete(oldImagePath);
+                }
 
-            }
-            return View(productFromDb);
+             _unitOfWork.Product.Remove(productToBeDelete);
+
+             _unitOfWork.Save();
+
+            return Json(new { success  = true, message = "Delete Successfully" });
 
 
+
+
+
+            
 
         }
 
-        //Delete action method 
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeletePOST(int? id)
-        {
-            Product? obj = _unitOfWork.Product.Get(u => u.Id == id);
-            if (obj == null)
-            {
-                return NotFound();
-            }
-            _unitOfWork.Product.Remove(obj);
-            _unitOfWork.Save();
-            TempData["success"] = "Product has been successfully deleted";
-            return RedirectToAction("Index");
+        #endregion
 
-
-
-
-        }
     }
 }

@@ -20,6 +20,8 @@ namespace Productstore.DataAccess.Repository
             _db = db;
             this.dbSet =_db.Set<T>();
             //means _db.Categories == dbSet
+
+            _db.Products.Include(u => u.Category).Include(u => u.CategoryId); // relationship means Product table has relationship on Category table with CategoryId(fK) in Product table 
             
         }
         public void Add(T entity)
@@ -27,15 +29,38 @@ namespace Productstore.DataAccess.Repository
             dbSet.Add(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> filter)
+        public T Get(Expression<Func<T, bool>> filter,string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
             query = query.Where(filter);
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach (var Includeproperty in includeProperties
+                    .Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+
+                    query = query.Include(Includeproperty);
+
+
+                }
+            }
+
             return query.FirstOrDefault();
         }
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach (var Includeproperty in includeProperties
+                    .Split(new char[] {','},StringSplitOptions.RemoveEmptyEntries))
+                {
+
+                    query = query.Include(Includeproperty);
+                
+                
+                }
+            }
             return query.ToList();
         }
 

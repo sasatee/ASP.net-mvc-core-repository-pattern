@@ -24,7 +24,7 @@
             </div>
             
         </div>
-        <table class="table table-bordered table-striped">
+        <table id="tblData" class="table table-bordered table-striped">
             <thead>
                 <tr>
 
@@ -40,8 +40,12 @@
                     <th></th>
                 </tr>
             </thead>
-            <tbody>
-                @foreach (var obj in Model)
+           
+
+
+                @* no longer needed because using dataTable Ajax *@
+            @* <tbody> *@
+              @*   @foreach (var obj in Model)
                 {
                     <tr>
                         <td>@obj.Title</td>
@@ -51,7 +55,7 @@
                         <td>@obj.ListPrice</td>
                         <td>@obj.Author</td>
                         <td>
-                           @*  @obj.Description *@
+                            @obj.Category.Name 
                         </td>
                         
                        
@@ -75,7 +79,7 @@
 
                     </tr>
                 }
-            </tbody>
+            </tbody> *@
 
 
 
@@ -83,6 +87,10 @@
     </div>
 
 </div>
+
+@section Scripts{
+    <script src="~/js/product.js"></script>
+}
    
 
 

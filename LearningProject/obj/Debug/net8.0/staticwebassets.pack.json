@@ -13,16 +13,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\426ea997-3ad9-4446-83cf-796dd92ca0c4.jpg",
-      "PackagePath": "staticwebassets\\images\\product\\426ea997-3ad9-4446-83cf-796dd92ca0c4.jpg"
+      "Id": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\47e98c1e-236b-41ec-be04-20670e0f5fa2.mp4",
+      "PackagePath": "staticwebassets\\images\\product\\47e98c1e-236b-41ec-be04-20670e0f5fa2.mp4"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\96efd5e1-7213-4a6a-97dc-5630a6d821f0.png",
-      "PackagePath": "staticwebassets\\images\\product\\96efd5e1-7213-4a6a-97dc-5630a6d821f0.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\c8fdb222-718f-4dbb-805c-5a35b7ab4995.jpg",
-      "PackagePath": "staticwebassets\\images\\product\\c8fdb222-718f-4dbb-805c-5a35b7ab4995.jpg"
+      "Id": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\js\\site.js",

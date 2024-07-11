@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KDBHHwjJzof1f7n0xNPUBtTvzcjIEcgC0WbLp0Qm7To=",
+  "Hash": "eCSz1wMFgxbDmEKKLNK7jxyFnNCMqnhRxsNKWUHUp/U=",
   "Source": "Bookstore",
   "BasePath": "_content/Bookstore",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\426ea997-3ad9-4446-83cf-796dd92ca0c4.jpg",
+      "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\47e98c1e-236b-41ec-be04-20670e0f5fa2.mp4",
       "SourceId": "Bookstore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\",
       "BasePath": "_content/Bookstore",
-      "RelativePath": "images/product/426ea997-3ad9-4446-83cf-796dd92ca0c4.jpg",
+      "RelativePath": "images/product/47e98c1e-236b-41ec-be04-20670e0f5fa2.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\426ea997-3ad9-4446-83cf-796dd92ca0c4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\product\\47e98c1e-236b-41ec-be04-20670e0f5fa2.mp4"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\96efd5e1-7213-4a6a-97dc-5630a6d821f0.png",
+      "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\js\\product.js",
       "SourceId": "Bookstore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\",
       "BasePath": "_content/Bookstore",
-      "RelativePath": "images/product/96efd5e1-7213-4a6a-97dc-5630a6d821f0.png",
+      "RelativePath": "js/product.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,26 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\96efd5e1-7213-4a6a-97dc-5630a6d821f0.png"
-    },
-    {
-      "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\c8fdb222-718f-4dbb-805c-5a35b7ab4995.jpg",
-      "SourceId": "Bookstore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\",
-      "BasePath": "_content/Bookstore",
-      "RelativePath": "images/product/c8fdb222-718f-4dbb-805c-5a35b7ab4995.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\c8fdb222-718f-4dbb-805c-5a35b7ab4995.jpg"
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\js\\site.js",
