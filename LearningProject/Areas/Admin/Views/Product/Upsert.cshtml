@@ -5,16 +5,16 @@
     <div class="card-header bg-secondary bg-gradient ml-0 py-3">
         <div class="row">
             <div class="col-12 text-center">
-                <h2 class="text-white py-2">@(Model.Product.Id !=0 ? "Update": "Create") Product</h2>
+                <h2 class="text-white py-2">@(Model.Product.Id != 0 ? "Update" : "Create") Product</h2>
             </div>
 
         </div>
 
     </div>
 
-   <div class="card-body p-4">
+    <div class="card-body p-4">
         <form method="post" class="row" enctype="multipart/form-data">
-            <input asp-for="Product.Id" hidden/>
+            <input asp-for="Product.Id" hidden />
             <input asp-for="Product.ImageUrl" hidden />
             <div class="row">
                 <div class="col-10">
@@ -132,10 +132,10 @@
 
                 </div>
             </div>
-         
+
 
         </form>
-   </div>
+    </div>
 
 </div>
 
@@ -143,8 +143,8 @@
 
 
 
-           @*  adding client side validation prevent server to be loaded / hit ever time if there is client side valiidation error *@
-           @section Scripts{
+@*  adding client side validation prevent server to be loaded / hit ever time if there is client side valiidation error *@
+@section Scripts {
 
     <script>
         tinymce.init({
@@ -160,7 +160,7 @@
             ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
         });
     </script>
-               @{
-                <partial name="_ValidationScriptsPartial"/>
-               }
-           }
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

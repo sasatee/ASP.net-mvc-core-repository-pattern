@@ -15,14 +15,13 @@
     <div class="card-body p-4">
         <div class="row pb-3">
             <div class="col-6">
-
             </div>
             <div class="col-6 text-end">
                 <a asp-controller="Product" asp-action="Upsert" class="btn btn-danger">
                     <i class="bi bi-plus-circle"> </i>Create new Product
                 </a>
             </div>
-            
+
         </div>
         <table id="tblData" class="table table-bordered table-striped">
             <thead>
@@ -33,52 +32,52 @@
                     <th>Price</th>
                     <th>Author</th>
                     <th>Category</th>
-                
-                   
-                 
+
+
+
 
                     <th></th>
                 </tr>
             </thead>
-           
 
 
-                @* no longer needed because using dataTable Ajax *@
+
+            @* no longer needed because using dataTable Ajax *@
             @* <tbody> *@
-              @*   @foreach (var obj in Model)
-                {
-                    <tr>
-                        <td>@obj.Title</td>
-                        <td>
-                            @obj.ISBN
-                        </td>
-                        <td>@obj.ListPrice</td>
-                        <td>@obj.Author</td>
-                        <td>
-                            @obj.Category.Name 
-                        </td>
-                        
-                       
-                        <td>
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="w-75 btn-group" role="group">
+            @*   @foreach (var obj in Model)
+            {
+            <tr>
+            <td>@obj.Title</td>
+            <td>
+            @obj.ISBN
+            </td>
+            <td>@obj.ListPrice</td>
+            <td>@obj.Author</td>
+            <td>
+            @obj.Category.Name
+            </td>
 
-                                        <a asp-controller="Product" asp-action="Upsert" asp-route-id="@obj.Id" class="mx-2  btn btn-dark">
-                                            <i class="bi bi-pencil-square"></i>Edit
-                                        </a>
-                                        <a asp-controller="Product" asp-action="Delete" asp-route-id="@obj.Id" class="mx-2  btn btn-success">
-                                            <i class="bi bi-trash-fill"></i>Delete
-                                        </a>
 
-                                    </div>
-                                </div>
+            <td>
+            <div class="row">
+            <div class="col-12">
+            <div class="w-75 btn-group" role="group">
 
-                            </div>
-                        </td>
+            <a asp-controller="Product" asp-action="Upsert" asp-route-id="@obj.Id" class="mx-2  btn btn-dark">
+            <i class="bi bi-pencil-square"></i>Edit
+            </a>
+            <a asp-controller="Product" asp-action="Delete" asp-route-id="@obj.Id" class="mx-2  btn btn-success">
+            <i class="bi bi-trash-fill"></i>Delete
+            </a>
 
-                    </tr>
-                }
+            </div>
+            </div>
+
+            </div>
+            </td>
+
+            </tr>
+            }
             </tbody> *@
 
 
@@ -88,10 +87,10 @@
 
 </div>
 
-@section Scripts{
+@section Scripts {
     <script src="~/js/product.js"></script>
 }
-   
+
 
 
 

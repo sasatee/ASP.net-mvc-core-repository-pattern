@@ -12,21 +12,21 @@
 
     </div>
 
-   <div class="card-body p-4">
+    <div class="card-body p-4">
         <form method="post">
             <div class="border p-3 mt-3">
-        
+
                 <div class="form-floating py-2 col-12">
                     <input asp-for="Name" type="text" class="form-control border-0 shadow" />
                     <label asp-for="Name" class="ms-2"></label>
-                 
+
                     <span asp-validation-for="Name" class="text-warning"></span>
                 </div>
 
                 <div class="form-floating py-2 col-12">
                     <input asp-for="DisplayOrder" type="text" class="form-control border-0 shadow" />
                     <label asp-for="DisplayOrder" class="ms-2"></label>
-               
+
                     <span asp-validation-for="DisplayOrder" class="text-warning"></span>
                 </div>
 
@@ -40,9 +40,9 @@
                         <button type="submit" class="btn btn-primary form-control">Create</button>
 
                     </div>
-            
+
                     <div class="col-6 col-md-3">
-                        <a asp-controller="Category" asp-action="Index" class="btn btn-outline-primary border form-control" >Back to home</a>
+                        <a asp-controller="Category" asp-action="Index" class="btn btn-outline-primary border form-control">Back to home</a>
                     </div>
 
                 </div>
@@ -51,7 +51,7 @@
             </div>
 
         </form>
-   </div>
+    </div>
 
 </div>
 
@@ -59,9 +59,9 @@
 
 
 
-           @*  adding client side validation prevent server to be loaded / hit ever time if there is client side valiidation error *@
-           @section Scripts{
-               @{
-                <partial name="_ValidationScriptsPartial"/>
-               }
-           }
+@*  adding client side validation prevent server to be loaded / hit ever time if there is client side valiidation error *@
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
