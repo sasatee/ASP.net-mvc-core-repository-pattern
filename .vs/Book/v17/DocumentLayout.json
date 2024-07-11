@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learningproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|solutionrelative:learningproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learningproject\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|solutionrelative:learningproject\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learningproject\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|solutionrelative:learningproject\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.dataaccess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|solutionrelative:learning.dataaccess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|solutionrelative:learning.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|solutionrelative:learning.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|solutionrelative:learning.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learningproject\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|solutionrelative:learningproject\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,79 +43,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Program.cs",
-              "RelativeDocumentMoniker": "LearningProject\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Program.cs",
-              "RelativeToolTip": "LearningProject\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T16:17:17.408Z",
+              "Title": "Upsert.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "RelativeDocumentMoniker": "LearningProject\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "RelativeToolTip": "LearningProject\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAEwIEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T22:02:31.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "LearningProject\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "LearningProject\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAuwIcAAAAAAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "LearningProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "LearningProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAwHoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T16:13:17.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Repository\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Learning.DataAccess\\Repository\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Repository\\CategoryRepository.cs",
-              "RelativeToolTip": "Learning.DataAccess\\Repository\\CategoryRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T16:09:54.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "Learning.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
-              "RelativeToolTip": "Learning.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T16:08:03.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "Learning.DataAccess\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Repository\\Repository.cs",
-              "RelativeToolTip": "Learning.DataAccess\\Repository\\Repository.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAwwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T16:04:29.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Learning.DataAccess\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Learning.DataAccess\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T16:03:51.33Z",
+              "WhenOpened": "2024-07-10T19:27:13.307Z",
               "EditorCaption": ""
             }
           ]

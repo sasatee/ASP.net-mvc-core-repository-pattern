@@ -18,7 +18,7 @@
 
             </div>
             <div class="col-6 text-end">
-                <a asp-controller="Product" asp-action="Create" class="btn btn-danger">
+                <a asp-controller="Product" asp-action="Upsert" class="btn btn-danger">
                     <i class="bi bi-plus-circle"> </i>Create new Product
                 </a>
             </div>
@@ -60,7 +60,7 @@
                                 <div class="col-12">
                                     <div class="w-75 btn-group" role="group">
 
-                                        <a asp-controller="Product" asp-action="Edit" asp-route-id="@obj.Id" class="mx-2  btn btn-dark">
+                                        <a asp-controller="Product" asp-action="Upsert" asp-route-id="@obj.Id" class="mx-2  btn btn-dark">
                                             <i class="bi bi-pencil-square"></i>Edit
                                         </a>
                                         <a asp-controller="Product" asp-action="Delete" asp-route-id="@obj.Id" class="mx-2  btn btn-success">

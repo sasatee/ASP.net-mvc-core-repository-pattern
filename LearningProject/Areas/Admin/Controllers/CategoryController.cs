@@ -119,7 +119,7 @@ namespace Productstore.Areas.Admin.Controllers
 
         }
 
-        //Deelete action method 
+        //Delete action method 
         [HttpPost, ActionName("Delete")]
         public IActionResult DeletePOST(int? id)
         {

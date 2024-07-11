@@ -29,17 +29,18 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Content Management
+                                 Management
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
                                     <a class="dropdown-item" asp-area="Admin" asp-controller="Category" action="Index">Category</a>
                                  </li>
+                                 <li><hr class="dropdown-divider"></li>
                                 <li class="nav-item">
                                     <a class="dropdown-item" asp-area="Admin" asp-controller="Product" action="Index">Product</a>
                                 </li>
                               
-                                <li><hr class="dropdown-divider"></li>
+                                
                            
                             </ul>
                         </li>
@@ -56,13 +57,14 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
+        <div class="container justify-content-center flex align-items-center">
            Made <i class="bi bi-balloon-heart-fill"></i> by sasatee  - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.tiny.cloud/1/jxstvslx4ce11xx82803eelc5raxuhe9sigldqxlh7zx6dxo/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

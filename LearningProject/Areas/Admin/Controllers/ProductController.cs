@@ -13,10 +13,14 @@ namespace Productstore.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public ProductController(IUnitOfWork unitofWork)
+
+        //register our service in DI container
+        public ProductController(IUnitOfWork unitofWork,IWebHostEnvironment IwebHostEnv)
         {
             _unitOfWork = unitofWork;
+            _webHostEnvironment = IwebHostEnv;
 
         }
         public IActionResult Index()
@@ -26,41 +30,118 @@ namespace Productstore.Areas.Admin.Controllers
            
             return View(objProductList);
         }
-        //get action method for Create
-        public IActionResult Create()
+
+
+
+        //create/update action method 
+        public IActionResult Upsert(int? id)  // Upsert ==> update or create UpdateInsert
         {
+
+            //Entity framework core projection 
+            //retrieve categoryId and its value from our Category object
             IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category
               .GetAll().Select(u => new SelectListItem
               {
                   Text = u.Name,
                   Value = u.CategoryId.ToString()
               });
+
+            //comment - passing Category List from our controller to our view
             //ViewBag.CategoryListViewBag = CategoryList;
+
+            //ViewData use dictionary (key pair value)
             //ViewData["CategoryListViewData"] = CategoryList;
+
+
             ProductVM productVM = new ProductVM()
             {
                 CategoryList = CategoryList,
                 Product = new Product()
             };
-            return View(productVM);
+
+            //this means that create action view method is called for creating product if there is no id 
+            if(id == null || id == 0)
+            {
+                //view 
+                return View(productVM);
+            }
+
+           else
+            {
+                //this means that update action is called for update product with respective id 
+
+                productVM.Product= _unitOfWork.Product.Get(u => u.Id == id);
+
+                //update
+                return View(productVM);
+
+            }
+
 
 
         }
 
-        //post action method
-        [HttpPost]
-        public IActionResult Create(ProductVM productVM)
-        {
 
-            if (ModelState.IsValid)
+
+        //view action method for both update or create
+        [HttpPost]
+        public IActionResult Upsert(ProductVM productVM, IFormFile? file)
+        {
+            string wwwRootPath = _webHostEnvironment.WebRootPath; // path for wwwRoot image
+            if (file != null)
             {
-                _unitOfWork.Product.Add(productVM.Product);
+
+                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName); // eg: random id + .png / .jpeg ect ..
+                string productPath = Path.Combine(wwwRootPath, @"images\product"); // file path
+
+                if (!string.IsNullOrEmpty(productVM.Product.ImageUrl))
+                {
+
+                    //if path exist 
+                    // delete the old image
+                    var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ImageUrl.Trim('\\');
+
+                    if (System.IO.File.Exists(oldImagePath))
+                    {
+                        System.IO.File.Delete(oldImagePath);
+                    }
+
+
+
+
+                }
+
+
+                using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                {
+                    file.CopyTo(fileStream);
+                }
+                productVM.Product.ImageUrl = @"\images\product\" + fileName;
+
+
+
+                if (productVM.Product.Id == 0)
+                {
+                    _unitOfWork.Product.Add(productVM.Product);
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(productVM.Product);
+
+                }
+
+
+
                 _unitOfWork.Save();
                 TempData["success"] = "Product has been successfully created";
                 return RedirectToAction("Index");
-            }
-            else 
+
+
+            } 
+            else
             {
+
+                //list 
                 productVM.CategoryList = _unitOfWork.Category.GetAll().Select(
                     u => new SelectListItem
                     {
@@ -68,41 +149,18 @@ namespace Productstore.Areas.Admin.Controllers
                         Value = u.CategoryId.ToString()
                     });
 
-                return View(productVM); 
-            
-            
+                return View(productVM);
+
+
             }
 
 
         }
 
 
-        //update action method 
-        public IActionResult Edit(int? id)
-        {
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-            // only work finding primary key
-            Product? productFromDb = _unitOfWork.Product.Get(u => u.Id == id);
 
 
-          
-
-
-            if (productFromDb == null)
-            {
-                return NotFound();
-
-            }
-            return View(productFromDb);
-
-
-
-        }
-
-        //post action method 
+        //view action method for edit
         [HttpPost]
         public IActionResult Edit(Product obj)
         {
