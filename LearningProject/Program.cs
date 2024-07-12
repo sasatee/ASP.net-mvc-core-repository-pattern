@@ -3,6 +3,9 @@ using Productstore.DataAccess.Repository;
 using Productstore.DataAccess.Repository.IRepository;
 using ProductstoreProject.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Bookstore.Utilities;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 namespace ProductstoreProject
 {
@@ -17,8 +20,12 @@ namespace ProductstoreProject
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
+            //Signin.RequireConfirmAccount means when user signin must confirm his/her Gmailaccount email address
+            //builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
+            builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+            builder.Services.AddRazorPages();
             builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
+            builder.Services.AddScoped<IEmailSender,EmailSender>(); // add email service in DI container
 
             var app = builder.Build();
 
@@ -35,7 +42,11 @@ namespace ProductstoreProject
 
             app.UseRouting();
 
+            app.UseAuthentication(); //email and password is valid then user is authorized to access 
+
             app.UseAuthorization();
+
+            app.MapRazorPages();
 
             app.MapControllerRoute(
                 name: "default",

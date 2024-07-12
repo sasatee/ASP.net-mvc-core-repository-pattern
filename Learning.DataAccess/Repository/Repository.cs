@@ -45,7 +45,7 @@ namespace Productstore.DataAccess.Repository
                 }
             }
 
-            return query.FirstOrDefault();
+            return query?.FirstOrDefault();
         }
         public IEnumerable<T> GetAll(string? includeProperties = null)
         {

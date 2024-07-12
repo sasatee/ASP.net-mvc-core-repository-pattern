@@ -10,3 +10,4 @@ C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Utilities\obj\Debu
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Utilities\obj\Debug\net8.0\refint\Bookstore.Utilities.dll
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Utilities\obj\Debug\net8.0\Bookstore.Utilities.pdb
 C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Utilities\obj\Debug\net8.0\ref\Bookstore.Utilities.dll
+C:\Users\user\source\repos\cs12dotnet8\ASP .net core\Learning.Utilities\obj\Debug\net8.0\Bookstore.Utilities.csproj.AssemblyReference.cache
