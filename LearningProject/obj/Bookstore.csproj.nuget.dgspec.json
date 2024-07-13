@@ -266,6 +266,12 @@
             "projectReferences": {
               "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Bookstore.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Bookstore.DataAccess.csproj"
+              },
+              "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Bookstore.Models.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Bookstore.Models.csproj"
+              },
+              "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Bookstore.Utilities.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Bookstore.Utilities.csproj"
               }
             }
           }

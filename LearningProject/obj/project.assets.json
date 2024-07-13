@@ -4569,6 +4569,8 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Bookstore.DataAccess >= 1.0.0",
+      "Bookstore.Models >= 1.0.0",
+      "Bookstore.Utilities >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.7",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.7",
       "Microsoft.EntityFrameworkCore >= 8.0.7",
@@ -4611,6 +4613,12 @@
           "projectReferences": {
             "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Bookstore.DataAccess.csproj": {
               "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Bookstore.DataAccess.csproj"
+            },
+            "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Bookstore.Models.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Bookstore.Models.csproj"
+            },
+            "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Bookstore.Utilities.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Utilities\\Bookstore.Utilities.csproj"
             }
           }
         }

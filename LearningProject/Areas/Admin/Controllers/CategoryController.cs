@@ -3,10 +3,13 @@ using Productstore.Models;
 using ProductstoreProject.DataAccess.Data;
 using Microsoft.AspNetCore.Mvc;
 using Productstore.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
+using Productstore.Utilities;
 
 namespace Productstore.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

@@ -9,6 +9,8 @@
       "Bookstore/1.0.0": {
         "dependencies": {
           "Bookstore.DataAccess": "1.0.0",
+          "Bookstore.Models": "1.0.0",
+          "Bookstore.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.7",
           "Microsoft.AspNetCore.Identity.UI": "8.0.7",
           "Microsoft.EntityFrameworkCore": "8.0.7",

@@ -19,6 +19,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Learning.DataAccess\Bookstore.DataAccess.csproj" />
+    <ProjectReference Include="..\Learning.Models\Bookstore.Models.csproj" />
+    <ProjectReference Include="..\Learning.Utilities\Bookstore.Utilities.csproj" />
   </ItemGroup>
 
   <ItemGroup>

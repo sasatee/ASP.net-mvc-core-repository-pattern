@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fZ/0nYdKbvLU3DUK71MbjsohZdzmaAAsK0JSdFVN0jA=",
+  "Hash": "M7JP/JBb4YL5l/Fdm8z8Rvr4WfSXGAIBauH6u8sfx6M=",
   "Source": "Bookstore",
   "BasePath": "_content/Bookstore",
   "Mode": "Default",
@@ -1233,12 +1233,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\0968d132-7a45-4acd-8195-4f56b8f657cf.jpeg",
+      "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\dc4a3085-16b4-4b2a-9671-1842711b0801.jpeg",
       "SourceId": "Bookstore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\",
       "BasePath": "_content/Bookstore",
-      "RelativePath": "images/product/0968d132-7a45-4acd-8195-4f56b8f657cf.jpeg",
+      "RelativePath": "images/product/dc4a3085-16b4-4b2a-9671-1842711b0801.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1249,26 +1249,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\0968d132-7a45-4acd-8195-4f56b8f657cf.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\b4ef489f-ae9e-4a9a-a5b2-5e05dd40c7ce.jpg",
-      "SourceId": "Bookstore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\",
-      "BasePath": "_content/Bookstore",
-      "RelativePath": "images/product/b4ef489f-ae9e-4a9a-a5b2-5e05dd40c7ce.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\b4ef489f-ae9e-4a9a-a5b2-5e05dd40c7ce.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\product\\dc4a3085-16b4-4b2a-9671-1842711b0801.jpeg"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\f69fd444-0f3f-481c-9600-26be5e724524.jpg",
