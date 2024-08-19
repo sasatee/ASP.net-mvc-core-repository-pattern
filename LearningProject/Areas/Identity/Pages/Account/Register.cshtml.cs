@@ -155,7 +155,7 @@ namespace Bookstore.Areas.Identity.Pages.Account
                   CompanyList = _unitOfWork.Company.GetAll().Select(i => new SelectListItem
                   {
                       Text = i.CompanyName,
-                      Value = i.Id.ToString()   
+                      Value = i.CompanyId.ToString()   
 
                   })
             };
@@ -185,8 +185,8 @@ namespace Bookstore.Areas.Identity.Pages.Account
                 //register as company
                 if (Input.Role == SD.Role_Company) {
 
-                    //user.Id is foreign key for companyID
-                    user.CompanyIdAsFk = Input.CompanyId;
+                    //user.CompanyId is foreign key in ApplicationUser
+                    user.CompanyId = Input.CompanyId;
                 
                 }
                 var result = await _userManager.CreateAsync(user, Input.Password);

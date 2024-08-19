@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Migrations\\20240819210005_ChangeInFkForCompanyIdInAppicationUserModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Learning.DataAccess\\Migrations\\20240819210005_ChangeInFkForCompanyIdInAppicationUserModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77873FA2-D572-4F67-8050-A86F1246F7A2}|Learning.Models\\Bookstore.Models.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77873FA2-D572-4F67-8050-A86F1246F7A2}|Learning.Models\\Bookstore.Models.csproj|solutionrelative:learning.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|solutionrelative:learning.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{77873FA2-D572-4F67-8050-A86F1246F7A2}|Learning.Models\\Bookstore.Models.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77873FA2-D572-4F67-8050-A86F1246F7A2}|Learning.Models\\Bookstore.Models.csproj|solutionrelative:learning.models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learningproject\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|solutionrelative:learningproject\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77873FA2-D572-4F67-8050-A86F1246F7A2}|Learning.Models\\Bookstore.Models.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77873FA2-D572-4F67-8050-A86F1246F7A2}|Learning.Models\\Bookstore.Models.csproj|solutionrelative:learning.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learningproject\\areas\\admin\\views\\company\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|solutionrelative:learningproject\\areas\\admin\\views\\company\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learningproject\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|solutionrelative:learningproject\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learningproject\\areas\\admin\\views\\company\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,8 +35,8 @@
       "RelativeMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|solutionrelative:learningproject\\areas\\admin\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learning.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9949DA3B-71A7-47F4-A78A-9DDBD30928D3}|Learning.DataAccess\\Bookstore.DataAccess.csproj|solutionrelative:learning.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|c:\\users\\user\\source\\repos\\cs12dotnet8\\asp .net core\\learningproject\\areas\\admin\\views\\company\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E942F6B-8870-44AD-9964-05603231E119}|LearningProject\\Bookstore.csproj|solutionrelative:learningproject\\areas\\admin\\views\\company\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,78 +74,117 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240819210005_ChangeInFkForCompanyIdInAppicationUserModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Migrations\\20240819210005_ChangeInFkForCompanyIdInAppicationUserModel.cs",
+              "RelativeDocumentMoniker": "Learning.DataAccess\\Migrations\\20240819210005_ChangeInFkForCompanyIdInAppicationUserModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Migrations\\20240819210005_ChangeInFkForCompanyIdInAppicationUserModel.cs",
+              "RelativeToolTip": "Learning.DataAccess\\Migrations\\20240819210005_ChangeInFkForCompanyIdInAppicationUserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:00:05.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Product.cs",
+              "RelativeDocumentMoniker": "Learning.Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Product.cs",
+              "RelativeToolTip": "Learning.Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:50:41.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Learning.Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Learning.Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:41:34.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "LearningProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "LearningProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAowJ0AAAAiAAAA",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAowLwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T20:32:45.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Upsert.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
               "RelativeDocumentMoniker": "LearningProject\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
               "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
               "RelativeToolTip": "LearningProject\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAowBAAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-19T20:32:10.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Views\\Company\\Delete.cshtml",
               "RelativeDocumentMoniker": "LearningProject\\Areas\\Admin\\Views\\Company\\Delete.cshtml",
               "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Views\\Company\\Delete.cshtml",
               "RelativeToolTip": "LearningProject\\Areas\\Admin\\Views\\Company\\Delete.cshtml",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowEwAAAAtAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-19T20:31:30.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CompanyController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Controllers\\CompanyController.cs",
               "RelativeDocumentMoniker": "LearningProject\\Areas\\Admin\\Controllers\\CompanyController.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\Areas\\Admin\\Controllers\\CompanyController.cs",
               "RelativeToolTip": "LearningProject\\Areas\\Admin\\Controllers\\CompanyController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAgwE0AAAAfAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T20:30:18.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Learning.DataAccess\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.DataAccess\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Learning.DataAccess\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAA5wCgAAAAeAAAA",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAACgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T20:30:01.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Company.cs",
               "RelativeDocumentMoniker": "Learning.Models\\Company.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\Learning.Models\\Company.cs",
               "RelativeToolTip": "Learning.Models\\Company.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T20:13:37.253Z",
               "EditorCaption": ""

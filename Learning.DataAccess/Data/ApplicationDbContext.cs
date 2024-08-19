@@ -37,8 +37,8 @@ namespace ProductstoreProject.DataAccess.Data
 
                 );
             modelBuilder.Entity<Company>().HasData(
-              new Company { Id=1,CompanyName = "Agelieum",StreetAddress="Jin fei",City="Baie du Tombeau",PostalCode="58988",PhoneNumber="235987132",State="Pamplemousse"},
-              new Company { Id = 22, CompanyName = "Cerdian", StreetAddress = "Ebene", City = "Ebene highway", PostalCode = "78954", PhoneNumber = "589872669", State = "Moka" }
+              new Company { CompanyId=1,CompanyName = "Agelieum",StreetAddress="Jin fei",City="Baie du Tombeau",PostalCode="58988",PhoneNumber="235987132",State="Pamplemousse"},
+              new Company { CompanyId = 22, CompanyName = "Cerdian", StreetAddress = "Ebene", City = "Ebene highway", PostalCode = "78954", PhoneNumber = "589872669", State = "Moka" }
 
              );
 

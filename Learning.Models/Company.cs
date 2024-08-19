@@ -11,8 +11,8 @@ namespace Bookstore.Models
     public class Company
     {
 
-        [Key]
-        public int Id { get; set; }
+        
+        public int CompanyId { get; set; }
         [Required]
         [DisplayName("Company Name")]
         [MaxLength(30)]

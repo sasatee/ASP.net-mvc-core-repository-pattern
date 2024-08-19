@@ -13,7 +13,7 @@
     </div>
     <div class="card-body p-4 row">
         <form method="post" class="row" enctype="multipart/form-data">
-            <input asp-for="Id" hidden />
+            <input asp-for="CompanyId" hidden />
 
             <div class="row">
                 <div class="col-10">
@@ -74,7 +74,7 @@
 
                         <div class="row pt-2">
                             <div class="col-6 col-md-3">
-                                @if (Model.Id != 0)
+                                @if (Model.CompanyId != 0)
                                 {
                                     <button type="submit" class="btn btn-primary form-control">Update</button>
                                 }

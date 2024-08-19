@@ -51,7 +51,7 @@ namespace Productstore.Areas.Admin.Controllers
             {
                 //this means that update action is called for update company with respective id 
 
-                Company companyObj = _unitOfWork.Company.Get(u => u.Id == id);
+                Company companyObj = _unitOfWork.Company.Get(u => u.CompanyId == id);
 
                 //update
                 return View(companyObj);
@@ -75,7 +75,7 @@ namespace Productstore.Areas.Admin.Controllers
             {
               
 
-                if (companyObj.Id == 0)
+                if (companyObj.CompanyId == 0)
                 {
                     _unitOfWork.Company.Add(companyObj);
                 }
@@ -131,7 +131,7 @@ namespace Productstore.Areas.Admin.Controllers
         {
 
 
-            var companyToBeDeleteObj = _unitOfWork.Company.Get(u => u.Id == id);
+            var companyToBeDeleteObj = _unitOfWork.Company.Get(u => u.CompanyId == id);
             if (companyToBeDeleteObj == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });
