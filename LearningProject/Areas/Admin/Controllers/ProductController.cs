@@ -105,7 +105,7 @@ namespace Productstore.Areas.Admin.Controllers
 
                         //if path exist 
                         // delete the old image
-                        var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ImageUrl.Trim('\\'));
+                        var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ImageUrl.TrimStart('\\'));
 
                         if (System.IO.File.Exists(oldImagePath))
                         {
@@ -267,7 +267,7 @@ namespace Productstore.Areas.Admin.Controllers
             }
 
             //remove image 
-                var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, productToBeDelete.ImageUrl.Trim('\\'));
+                var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, productToBeDelete.ImageUrl.TrimStart('\\'));
 
                 if (System.IO.File.Exists(oldImagePath))
                 {

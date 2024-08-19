@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\images\\product\\dc4a3085-16b4-4b2a-9671-1842711b0801.jpeg"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\f69fd444-0f3f-481c-9600-26be5e724524.jpg",
-      "PackagePath": "staticwebassets\\images\\product\\f69fd444-0f3f-481c-9600-26be5e724524.jpg"
-    },
-    {
       "Id": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },

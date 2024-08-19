@@ -1,0 +1,5 @@
+﻿@Bookstore_HostAddress = http://localhost:5298
+
+DELETE {{Bookstore_HostAddress}}/{area=Customer}/product/delete/{id}
+
+###

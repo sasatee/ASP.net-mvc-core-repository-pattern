@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M7JP/JBb4YL5l/Fdm8z8Rvr4WfSXGAIBauH6u8sfx6M=",
+  "Hash": "pkzlJc16AT5w4ur8hLRqKLswVGn9lKj/OXQHyiGckq8=",
   "Source": "Bookstore",
   "BasePath": "_content/Bookstore",
   "Mode": "Default",
@@ -1250,25 +1250,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\dc4a3085-16b4-4b2a-9671-1842711b0801.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\images\\product\\f69fd444-0f3f-481c-9600-26be5e724524.jpg",
-      "SourceId": "Bookstore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\",
-      "BasePath": "_content/Bookstore",
-      "RelativePath": "images/product/f69fd444-0f3f-481c-9600-26be5e724524.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\f69fd444-0f3f-481c-9600-26be5e724524.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\cs12dotnet8\\ASP .net core\\LearningProject\\wwwroot\\js\\product.js",

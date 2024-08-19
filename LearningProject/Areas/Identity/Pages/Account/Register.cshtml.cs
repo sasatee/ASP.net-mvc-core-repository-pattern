@@ -29,7 +29,7 @@ namespace Bookstore.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
-        private readonly RoleManager<IdentityRole> _roleManager;// add role
+        private readonly RoleManager<IdentityRole> _roleManager;// add role field
         private readonly IUserStore<IdentityUser> _userStore;
         private readonly IUserEmailStore<IdentityUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
@@ -44,7 +44,7 @@ namespace Bookstore.Areas.Identity.Pages.Account
             IEmailSender emailSender)
         {
             _userManager = userManager;
-            _roleManager = roleManager; // add role in contructor
+            _roleManager = roleManager; // add role in constructor
             _userStore = userStore;
             _emailStore = GetEmailStore();
             _signInManager = signInManager;
@@ -109,12 +109,20 @@ namespace Bookstore.Areas.Identity.Pages.Account
 
             [ValidateNever]
             public IEnumerable<SelectListItem> RoleList { get; set; } // for dropdowm selecting role option
+
+            [Required]
+            public string? Name {  get; set; }
+            public string? StreetAddress {  get; set; }
+            public string? City { get; set; }   
+            public string? State { get; set; }  
+            public string? PostalCode {  get; set; }   
+            public string? PhoneNumber {  get; set; }
         }
 
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-            if (!_roleManager.RoleExistsAsync(SD.Role_Customer).GetAwaiter().GetResult())
+            if (!_roleManager.RoleExistsAsync(SD.Role_Customer).GetAwaiter().GetResult()) // if there is no customer role exists
             {
                 _roleManager.CreateAsync(new IdentityRole(SD.Role_Customer)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(SD.Role_Employee)).GetAwaiter().GetResult();
@@ -123,6 +131,8 @@ namespace Bookstore.Areas.Identity.Pages.Account
 
 
             }
+
+            //populate dropdown with all the role
 
             Input = new()
             {
@@ -147,6 +157,14 @@ namespace Bookstore.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+                //
+                user.StreetAddress = Input.StreetAddress;
+                user.City = Input.City;
+                user.PostalCode = Input.PostalCode;
+                user.PhoneNumber = Input.PhoneNumber;
+                user.State = Input.State;
+                user.Name = Input.Name;  
+                //
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
@@ -162,7 +180,7 @@ namespace Bookstore.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        //if user do not want to select a role , on default he/she will be set as "Customer"
+                        //if user do not want to select a role , on default he/she will be set as "Customer" role
                         await _userManager.AddToRoleAsync(user,SD.Role_Customer);
 
                     }

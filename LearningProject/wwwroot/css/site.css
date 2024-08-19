@@ -1,6 +1,16 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+.divider-text:before,
+.divider-text:after{
+    color:white;
+    content:"";
+    flex:1;
+    border-bottom:1px solid #555;
+    margin:auto 0.25rem;
+    box-shadow:0 -2px;
+}
+
 a.navbar-brand {
     white-space: normal;
     text-align: center;
@@ -299,9 +309,9 @@ bg-success {
     .btn-check:focus + .btn-danger, .btn-danger:focus {
         color: #fff;
         background-color: #d9534f;
-        ;
+        
         border-color: #d9534f;
-        ;
+        
         box-shadow: 0 0 0 0.25rem rgba(223, 109, 105, 0.5);
     }
 
