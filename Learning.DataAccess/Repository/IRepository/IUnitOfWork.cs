@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bookstore.DataAccess.Repository.IRepository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace Productstore.DataAccess.Repository.IRepository
     {
         ICategoryRepository Category { get; }
         IProductRepository Product { get; }
-
+        
+        ICompanyRepository Company { get; }
         void Save();
     }
 }
